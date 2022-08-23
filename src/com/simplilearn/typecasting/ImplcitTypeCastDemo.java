@@ -11,6 +11,7 @@ public class ImplcitTypeCastDemo {
 
 		byte smallCount = 127; // 1 byte (8bit) => -128 to 127
 		
+		
 		int intCount = smallCount; // Widening => byte (1byte) -> int (4byte)
 		
 		long bigCount = intCount; // Widening =>  int (4byte)->  long (8 byte)

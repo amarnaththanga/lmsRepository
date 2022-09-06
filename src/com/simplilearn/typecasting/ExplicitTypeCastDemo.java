@@ -11,7 +11,7 @@ public class ExplicitTypeCastDemo {
 		 */
 		
 		
-		double price = 130.345;
+		double price = 130.34;
 		
 		long bigPrice = (long) price; // Narrowing => double(8 byte) -> long (8 byte)
 		
